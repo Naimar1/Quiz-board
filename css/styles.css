@@ -28,10 +28,17 @@
 .jumbotron h1{
   color: darkcyan;
   text-align: center;
-  font-family: monospace;
+  font-family: sans-serif;
 }
 .jumbotron h2 {
   color: brown;
-  font-size: 30px;
+  font-size: 35px;
   font-style: oblique;
+}
+.jumbotron li {
+  font-size: 20px;
+  font-family:courier;
+}
+.container P {
+  color: darkslategrey;
 }
