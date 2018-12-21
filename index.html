@@ -25,94 +25,97 @@
            <li>Each question:5pts</li>   
            <li>Duration: 2Hours</li>
          </ol>
-       <div</div>  
+       <div></div>  
       <h2 class="panel panel-heading">SECTION A</h2>
-      <div class="well">
-        <div class="panel panel-default">
-          <div class="panel panel-default">
-            <p class="panel-title">Q1. How many bits make a byte?</p>
-          </div>
-            <div class="panel-body"> 
-              <form>
-                <input type="radio" name="answer" value="">16 bits<br>
-                <input type="radio" name="answer" value="">8 bits<br>
-                <input type="radio" name="answer" value="">24 bits<br>
-                <input type="radio" name="answer" value="">12 bits<br>
-              </form>
-            </div>
-        </div>
-   
+      <form>
+         <div class="well">
             <div class="panel panel-default">
-              <div class="panel panel-default">
-                <p class="panel-title">Q2. What is the meaning of (CPU)?</p>
-              </div>
-              <div class="panel-body">
-               <form>
-                  <input type="radio" name="answer" value="">Central Processing Unit<br>
-                  <input type="radio" name="answer" value="">Critical Processing Unit<br>
-                  <input type="radio" name="answer" value="">Crucial Processing Unit<br>
-                  <input type="radio" name="answer" value="">Central Priting Unit<br>
-               </form>
-              </div>
-              
-        </div>
+               <div class="panel panel-default">
+                  <p class="panel-title">Q1. How many bits make a byte?</p>
+               </div>
+                  <div class="panel-body"> 
+                     <label><input type="radio" name="queOne" value="False" required>16 bits</label><br>
+                     <label><input type="radio" name="queOne" value="True" class="correct" required>8 bits</label><br>
+                     <label><input type="radio" name="queOne" value="False" required>24 bits</label><br>
+                     <label><input type="radio" name="queOne" value="False" required>12 bits</label><br>
+                  
+                  </div>
+            </div>
+            <div class="panel panel-default">
+               <div class="panel panel-default">
+                  <p class="panel-title">Q2. What is the meaning of (CPU)?</p>
+               </div>
+               <div class="panel-body">
+               
+                    <label><input type="radio" name="questionTwo" value="True" class="correct" required>Central Processing Unit</label><br>
+                     <label><input type="radio" name="questionTwo" value="False" required>Critical Processing Unit</label><br>
+                     <label><input type="radio" name="questionTwo" value="False" required>Crucial Processing Unit</label><br>
+                     <label><input type="radio" name="questionTwo" value="False" required>Central Priting Unit</label><br>
+               
+               </div>
+               
+            </div>
+            <div class="panel panel-default">
+               <div class="panel panel-default">
+               <p class="panel-title">Q3. The process of starting or restarting a computer is called?</p>
+               </div>
+               <div class="panel-body">
+               
+                  <label><input type="radio" name="queTh" value="False" required>Start up point</label><br>
+                  <label><input type="radio" name="queTh" value="True" class="correct" required>Booting</label><br>
+                  <label><input type="radio" name="queTh" value="False" required>Connecting</label><br>
+                  <label><input type="radio" name="queTh" value="False" required>Resetting</label>><br>
+               
+               </div>
+            </div>
+            <div class="panel panel-default">
+               <div class="panel panel-default">
+               <p class="panel-title">Q4. One component of the motherboard is:</p>
+               </div>
+               <div class="panel-body">
+               
+                  <label><input type="radio" name="queFour" value="True" class="correct" required>Processor</label><br>
+                  <label><input type="radio" name="queFour" value="False" required>Bios></label><br>
+                  <label><input type="radio" name="queFour" value="False" required>Computer Chip</label><br>
+                  <label><input type="radio" name="queFour" value="False" required>Transistor</label><br>
+               
+               </div>
+            </div>
+            <div class="panel panel-default">
+               <div class="panel panel-default">
+                  <p class="panel-title">Q5. The system unit is referred to as the:</p>
+               </div>
+               <div class="panel-body">
+               
+                  <label><input type="radio" name="queFive" value="True" class="correct" required>Central Processing Unit</label><br>
+                  <label><input type="radio" name="queFive" value="False" required>The Heart of the Computer</label><br>
+                  <label><input type="radio" name="queFive" value="False" required>The hard drive</label><br>
+                  <label><input type="radio" name="queFive" value="False" required>System Software</label><br>
+               
+               </div>
+            </div>
+            <h2 class="panel panel-heading">SECTION B</h2>
+            <div class="panel panel-default">
+            <div class="panel panel-default">
+               <p class="panel-title">Q1. What factors are important to you when buying a software product?</p>
+            </div>
+            <div class="panel-body">
+                  <label><input type="checkbox"  id ="numberOne"  value="True" class="correct" required>Price</label><br>
+                  <label><input type="checkbox"  id ="numberTwo"  value="True" class="correct" required>Usability</label><br>
+                  <label><input type="checkbox"  id ="numberThre" value="False" required>Features</label><br>
+                  <label><input type="checkbox"  id ="numberFour"  value="True" class="correct">Support</label><br>
+               </div>
+                  
+            </div>
+         </div>
+         <input type="submit" class="btn btn-primary" value="Submit">
+      </form>
+      <h1 id="result"></h1>
+       <script
+       src="https://code.jquery.com/jquery-3.3.1.min.js"
+       integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+       crossorigin="anonymous"></script>
         
-          <div class="panel panel-default">
-            <div class="panel panel-default">
-              <p class="panel-title">Q3. The process of starting or restarting a computer is called?</p>
-            </div>
-            <div class="panel-body">
-             <form>
-               <input type="radio" name="answer" value="">Start up point<br>
-               <input type="radio" name="answer" value="">Booting<br>
-               <input type="radio" name="answer" value="">Connecting<br>
-               <input type="radio" name="answer" value="">Resetting<br>
-             </form>
-            </div>
-        </div>
-        <div class="panel panel-default">
-            <div class="panel panel-default">
-              <p class="panel-title">Q4. One component of the motherboard is:</p>
-            </div>
-            <div class="panel-body">
-              <form>
-                <input type="radio" name="answer" value="">Processor<br>
-                <input type="radio" name="answer" value="">Bios<br>
-                <input type="radio" name="answer" value="">Computer Chip<br>
-                <input type="radio" name="answer" value="">Transistor<br>
-              </form>
-            </div>
-         </div>
-
-         <div class="panel panel-default">
-            <div class="panel panel-default">
-               <p class="panel-title">Q5. The system unit is referred to as the:</p>
-            </div>
-            <div class="panel-body">
-              <form>
-                 <input type="radio" name="answer" value="">Central Processing Unit<br>
-                 <input type="radio" name="answer" value="">The Heart of the Computer<br>
-                 <input type="radio" name="answer" value="">The hard drive<br>
-                 <input type="radio" name="answer" value="">System Software<br>
-              </form>
-            </div>
-         </div>
-    
-     <h2  class="panel panel-heading">SECTION B</h2>
-    
-         <div class="panel panel-default">
-           <div class="panel panel-default">
-              <p class="panel-title">Q1. What factors are important to you when buying a software product?</p>
-           </div>
-           <div class="panel-body">
-             <form>
-                <label><input type="checkbox" value="">Price</label><br>
-                <label><input type="checkbox" value="">Usability</label><br>
-                <label><input type="checkbox" value="">Features</label><br>
-                <label><input type="checkbox" value="">Support</label><br>
-             </form>
-           </div>
-     
-    </div>
+      <script src="js/javas.js"></script>
   </body>
 </html>
