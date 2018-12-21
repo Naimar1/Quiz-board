@@ -3,6 +3,7 @@
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+    
   }
   @media (min-width: 768px) {
     .container {
@@ -20,4 +21,12 @@
     width: 1170px;
   }
   
+}
+.jumbotron {
+  background-color: bisque;
+}
+.jumbotron h1{
+  color: darkcyan;
+  text-align: center;
+  font-family: monospace;
 }
