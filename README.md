@@ -19,8 +19,8 @@ There is no error, by mistake if you find it please contact me for the below add
 I used html ,css ,js ,bootstrap ,jQuery and md languages
 ## Support and contact details
 Don't hesitate to contact me if you get a confusion or any other question,suggestion etc
-* Tel:0788358969
-* email:naiglyme1@gmail.com
+* Tel: 0788358969
+* email: naiglyme1@gmail.com
 ### License
 * MIT License
 * Copyright (c) 2018 NAIMA NIYIGENA
