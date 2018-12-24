@@ -8,7 +8,7 @@ Section one: I use radion buton to select one answer
 Section two:  I use checkbox to choose more than one
 and it requires you to select answer. you can not skip any question.
 ## Setup/Installation Requirements
-* link to visit site: 
+* link to visit site: https://naimar1.github.io/Quiz-board/.
 * cd Quiz-board
 * code . (if you are using visual studio)
 * atom .
