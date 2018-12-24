@@ -14,7 +14,8 @@ $(document).ready(function() {
 
 
         $('#result').text("Your score is "+ getScore(chooseAnswers )+ "/40pts");
-        
+        document.getElementById("pass").style.display ="block";
+        $(".container").fadeOut();
     })
 });
 

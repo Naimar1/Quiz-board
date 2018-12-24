@@ -51,3 +51,9 @@ img {
   font-style: inherit;
   font-size: 25px;
 }
+#pass {
+  background-color: bisque;
+  text-align: center;
+  font-family: monospace;
+  font-size: 35px;
+}
