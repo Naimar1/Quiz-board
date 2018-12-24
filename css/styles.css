@@ -22,6 +22,10 @@
   }
   
 }
+img {
+  position: static;
+  float:none;
+}
 .jumbotron {
   background-color: bisque;
 }
