@@ -16,7 +16,7 @@ and it requires you to select answer. you can not skip any question.
 Hope that my codes of this page is clear and understandable,
 There is no error, by mistake if you find it please contact me for the below address
 ## Technologies Used
-I used html ,css,js,bootstrap,jQuery and md languages
+I used html ,css ,js ,bootstrap ,jQuery and md languages
 ## Support and contact details
 Don't hesitate to contact me if you get a confusion or any other question,suggestion etc
 * Tel:0788358969
