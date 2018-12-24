@@ -13,7 +13,8 @@ $(document).ready(function() {
         console.log(chooseAnswers );
 
 
-        $('#result').text("Your score is "+ getScore(chooseAnswers ));
+        $('#result').text("Your score is "+ getScore(chooseAnswers )+ "/40pts");
+        
     })
 });
 
@@ -24,7 +25,7 @@ function getScore(chooseAnswers ) {
 
     chooseAnswers .forEach(function(answer) {
         if (answer === true) {
-            score++;
+            score +=5;
         }
     });
 
